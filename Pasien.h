@@ -10,15 +10,15 @@ using namespace std;
 class Pasien {
     public:
     string nama;
-    vector<Pasien*>daftar_;
+    vector<Pasien*>daftar_dokter;
 
-    Ibu (string pNama) : nama(pNama) {
-        cout << "Ibu \"" << nama << "\" ada \n";
+    Pasien (string pNama) : nama(pNama) {
+        cout << "Pasien \"" << nama << "\" ada \n";
     }
-    ~Ibu (){
-        cout << "Ibu \"" << nama << "\" tidak ada \n";
+    ~Pasien (){
+        cout << "Pasien \"" << nama << "\" tidak ada \n";
     }
-    void tambahAnak(Anak*);
+    void tambahAnak(Dokter*);
     void cetakAnak();
 };
 
