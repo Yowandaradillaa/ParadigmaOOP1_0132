@@ -18,13 +18,13 @@ class Pasien {
     ~Pasien (){
         cout << "Pasien \"" << nama << "\" tidak ada \n";
     }
-    void tambahAnak(Dokter*);
-    void cetakAnak();
+    void tambahDokter(Dokter*);
+    void cetakDokter();
 };
 
-void Ibu::cetakAnak(){
-    cout << "Daftar anak dari ibu\"" << this->nama << "\":\n";
-    for (auto& a :daftar_anak) {
+void Pasien::cetakDokter(){
+    cout << "Daftar pasien dari dokter \"" << this->nama << "\":\n";
+    for (auto& a :daftar_dokter) {
         cout << a->nama << "\n";
     }
 }
