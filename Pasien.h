@@ -23,7 +23,7 @@ class Pasien {
 };
 
 void Pasien::cetakDokter(){
-    cout << "Daftar pasien dari dokter \"" << this->nama << "\":\n";
+    cout << "Daftar dokter dari pasien \"" << this->nama << "\":\n";
     for (auto& a :daftar_dokter) {
         cout << a->nama << "\n";
     }
