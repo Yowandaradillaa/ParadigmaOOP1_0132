@@ -18,7 +18,7 @@ class Orang {
     }
 };
 
-class Pelajar : public orang {
+class Pelajar : public Orang {
     public :
     string sekolah;
 
