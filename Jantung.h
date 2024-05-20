@@ -3,3 +3,10 @@
 
 using namespace std;
 
+class Jantung {
+    public :
+    Jantung(){
+        cout << "Jantung dihidupkan\n";
+    }
+    
+}
