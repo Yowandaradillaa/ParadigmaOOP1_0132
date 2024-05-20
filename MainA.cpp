@@ -22,7 +22,7 @@ int main () {
     delete varIbu;
     delete varIbu2;
     delete varAnak1;
-    delete varAanak2;
+    delete varAnak2;
     delete varAnak3;
-    
+
 }
