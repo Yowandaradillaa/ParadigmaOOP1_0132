@@ -11,6 +11,9 @@ int main () {
     Anak* varAnak2 = new Anak("Rini");
     Anak* varAnak3 = new Anak("Dewi");
 
+    varIbu->cetakAnak();
+    varIbu2->cetakAnak();
+
     varIbu->tambahAnak(varAnak1);
     varIbu->tambahAnak(varAnak2);
     varIbu->tambahAnak(varAnak3);
