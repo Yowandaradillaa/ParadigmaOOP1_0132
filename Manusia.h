@@ -13,6 +13,8 @@ class Manusia {
     : name (pName) {
         cout << name << "hidup\n";
     }
-
+    ~Manusia(){
+        cout << name << "mati\n";
+    }
 };
 #endif
