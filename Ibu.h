@@ -4,14 +4,15 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 
 class Ibu {
     public:
     string nama;
-    vector<Anak*> daftar_anak;
+    vector<Anak*>daftar_anak;
 
-    ibu (string pNama) : nama(pNama) {
+    Ibu (string pNama) : nama(pNama) {
         cout << "Ibu \"" << nama << "\" ada \n";
     }
     ~Ibu (){
