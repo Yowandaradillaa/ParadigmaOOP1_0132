@@ -11,12 +11,13 @@ class Ibu {
     string nama;
     vector<Anak*> daftar_anak;
 
-    ibu (string pNama) : nama (pNama) {
+    ibu (string pNama) : nama(pNama) {
         cout << "Ibu \"" << nama << "\" ada \n";
     }
     ~Ibu (){
         cout << "Ibu \"" << nama << "\" tidak ada \n";
     }
-
-    
-}
+    void tambahAnak(Anak*);
+    void cetakAnak();
+};
+#endif
