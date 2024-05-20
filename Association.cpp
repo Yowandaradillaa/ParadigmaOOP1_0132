@@ -2,3 +2,7 @@
 #include <vector>
 using namespace std;
 
+class Dokter;
+class Pasien {
+    
+}
