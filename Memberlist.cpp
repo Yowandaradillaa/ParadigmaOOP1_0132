@@ -2,13 +2,18 @@
 #include <string>
 using namespace std;
 
-class mahasiswa {
+class Mahasiswa {
     private:
     const int id;
     string nama;
     float nilai;
 
     public : 
-    mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama)
-    
+    Mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama) {
+        //definisi
+    }
+
+    ~Mahasiswa() {
+    cout << "Id = " << id << endl;
 }
+};
