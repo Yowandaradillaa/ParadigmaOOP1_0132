@@ -8,24 +8,13 @@ using namespace std;
 
 
 class Pasien {
-    public:
+    public: 
     string nama;
-    vector<Pasien*>daftar_dokter;
-
     Pasien (string pNama) : nama(pNama) {
-        cout << "Pasien \"" << nama << "\" ada \n";
+        cout << "pasien\"" << nama << "\" ada \n";
     }
-    ~Pasien (){
-        cout << "Pasien \"" << nama << "\" tidak ada \n";
+    ~Pasien(){
+        cout << "pasien\"" << nama << "\" tidak ada \n";
     }
-    void tambahDokter(Dokter*);
-    void cetakDokter();
 };
-
-void Pasien::cetakDokter(){
-    cout << "Daftar dokter dari pasien \"" << this->nama << "\":\n";
-    for (auto& a :daftar_dokter) {
-        cout << a->nama << "\n";
-    }
-}
 #endif
